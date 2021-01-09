@@ -5,7 +5,7 @@ run time integration
 Host: Container
 - decides which files to get from remote
 
-Remote: Products
+Remote: Products, Cart
 - decides which files to expose to other projects
 - 
 

@@ -1,5 +1,5 @@
-import faker from 'faker';
+import('./bootstrap');
 
-const cartText = `<div>You have ${faker.random.number()} items in your cart</div>`;
-
-document.querySelector('#cart-dev').innerHTML = cartText;
+/** this pattern in the Remote containers allows
+ * to load shared dependencies asynchronously
+ */
